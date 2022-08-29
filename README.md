@@ -1,6 +1,6 @@
 # theWhiteFox Vite + React + Redux boilerplate
 - `yarn create vite`
- -- select react-ts
+-- select react-ts
 - `yarn`
 - `yarn add @reduxjs/toolkit `
 - `yarn add redux react-redux`
