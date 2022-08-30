@@ -8,7 +8,7 @@
 - `yarn add @mui/material @emotion/react @emotion/styled`
 - `yarn add @mui/icons-material`
 - `yarn add @types/react @types/react-dom`
-- `yarn add --dev @types/jest`
+- `yarn add -D jest @types/jest`
 - `yarn dev`
 
 ## Ref
