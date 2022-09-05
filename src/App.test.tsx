@@ -5,7 +5,7 @@ import App from './App';
 
 describe('App', () => {
   it('Renders hello world', () => {
-    // ARRAGE
+    // ARRANGE
     render(<App />);
     // ACT
     // EXPECT
