@@ -1,4 +1,8 @@
 # theWhiteFox Vite + React + Redux boilerplate
+
+* node -v v16.17.0
+* yarn -v 1.15.2
+
 - `yarn create vite`
  -- select react-ts
 - `yarn`
@@ -13,9 +17,6 @@
 - `yarn dev`
 
 ## Ref
-<<<<<<< HEAD
 - [Medium Quick Jest Setup Vite React TS](https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f)
-=======
-- [Medium Quick Jest Setup Vite React TS](https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f)
-- [https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/](https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/)
->>>>>>> parent of 0fa7a49 (Revert "set up testing")
+- [Markus Oberlehner using-testing-library-jest-dom-with-vitest](https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/)
+- [testing-library](https://testing-library.com/docs/queries/about)
