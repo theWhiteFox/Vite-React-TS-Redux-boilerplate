@@ -1,8 +1,4 @@
 # theWhiteFox Vite + React + Redux boilerplate
-
-* node -v v16.17.0
-* yarn -v 1.15.2
-
 - `yarn create vite`
  -- select react-ts
 - `yarn`
