@@ -26,4 +26,3 @@
 ## Ref
 - [Medium Quick Jest Setup Vite React TS](https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f)
 - [Markus Oberlehner using-testing-library-jest-dom-with-vitest](https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/)
-- [https://testing-library.com/docs/queries/about](https://testing-library.com/docs/queries/about)
