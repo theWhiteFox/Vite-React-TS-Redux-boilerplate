@@ -3,13 +3,14 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9c95d444-98af-4449-b67f-8d63cbce2135/deploy-status)](https://app.netlify.com/sites/vite-react-redux-ts-boilerplate/deploys)
 
 This setup includes:
-* [vite](https://vitejs.dev/)
+* [Vite](https://vitejs.dev/)
 * [eslint](https://eslint.org/), [typescript-eslint](https://typescript-eslint.io/),
 [eslint-airbnb-config](https://github.com/airbnb/javascript), [prettier](https://prettier.io/)
 * [vitest](https://vitest.dev/), [jsdom](https://github.com/jsdom/jsdom),
 [@testing-library](https://testing-library.com/)
 * [react-router v6](https://reactrouter.com/en/main)
-* [https://redux.js.org/usage/usage-with-typescript](https://redux.js.org/usage/usage-with-typescript)
+* [Redux TS](https://redux.js.org/usage/usage-with-typescript)
+* [MUI/](https://mui.com/)
 
 # References
 
