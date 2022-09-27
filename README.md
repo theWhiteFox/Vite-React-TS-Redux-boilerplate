@@ -1,22 +1,17 @@
-# theWhiteFox Vite + React + Redux boilerplate
+## [vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [Redux](https://redux.js.org/) +
+[TypeScript](https://www.typescriptlang.org/) Starter
 
-* node -v v16.17.0
-* yarn -v 1.15.2
+This setup includes:
+* [vite](https://vitejs.dev/)
+* [eslint](https://eslint.org/), [typescript-eslint](https://typescript-eslint.io/),
+[eslint-airbnb-config](https://github.com/airbnb/javascript), [prettier](https://prettier.io/)
+* [vitest](https://vitest.dev/), [jsdom](https://github.com/jsdom/jsdom),
+[@testing-library](https://testing-library.com/)
+* [react-router v6](https://reactrouter.com/en/main)
+* [https://redux.js.org/usage/usage-with-typescript](https://redux.js.org/usage/usage-with-typescript)
 
-- `yarn create vite`
- -- select react-ts
-- `yarn`
-- `yarn add @reduxjs/toolkit `
-- `yarn add redux react-redux`
-- `yarn add react-router-dom`
-- `yarn add @mui/material @emotion/react @emotion/styled`
-- `yarn add @mui/icons-material`
-- `yarn add @types/react @types/react-dom`
-- `yarn add -D jest @types/jest`
-- `yarn add -D eslint`
-- `yarn dev`
+# References
 
-## Ref
-- [Medium Quick Jest Setup Vite React TS](https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f)
-- [Markus Oberlehner using-testing-library-jest-dom-with-vitest](https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/)
-- [testing-library](https://testing-library.com/docs/queries/about)
+* https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/
+* https://testing-library.com/docs/queries/about#priority
+* https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
