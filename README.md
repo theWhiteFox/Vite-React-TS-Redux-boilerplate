@@ -1,4 +1,4 @@
-## [vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [TypeScript](https://www.typescriptlang.org/) boilerplate
+## [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [TS](https://www.typescriptlang.org/) Boilerplate
 
 This setup includes:
 * [vite](https://vitejs.dev/)
