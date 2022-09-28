@@ -1,68 +1,46 @@
 import { useState } from 'react';
 import {
-  Box,
-  CssBaseline,
-  Paper,
-  ThemeProvider,
   Typography,
 } from "@mui/material";
-import { createTheme } from "@mui/material/styles";
 import { Counter } from '../features/counter/Counter';
+import AddIcon from '@mui/icons-material/Add'
 
 function Home() {
-  const [count, setCount] = useState(0);
-
-  // define theme
-  const theme = createTheme({
-    palette: {
-      primary: {
-        light: "#63b8ff",
-        main: "#0989e3",
-        dark: "#005db0",
-        contrastText: "#000",
-      },
-      secondary: {
-        main: "#4db6ac",
-        light: "#82e9de",
-        dark: "#00867d",
-        contrastText: "#000",
-      },
-    },
-  });
-
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Box
-        height="100vh"
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
-        <Paper
-          elevation={3}
-          sx={{ padding: "1rem", backgroundColor: "secondary.light" }}
-        >
-          <Typography color="primary.dark" variant="h1">
-            home page Starter App
-          </Typography>
-          <div>
-            <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-              <img src="/vite.svg" className="logo" alt="Vite logo" />
-            </a>
-          </div>
-          <h1>Vite + React + Redux</h1>
-          <div className="card">
-            <Counter />
-            <p>
-              Edit <code>src/App.tsx</code> and save to test HMR
-            </p>
-          </div>
-        </Paper>
-      </Box>
-    </ThemeProvider>
+    <>
+      <Typography color="primary.dark" variant="h1">
+        Home
+      </Typography>
+      <div>
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+          <img src="/vite.svg" className="logo" alt="Vite logo" />
+        </a>
+        <AddIcon style={{ textAlign: "center", height: "100px" }} />
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+          <img src="/react.svg" className="logo" alt="React logo" />
+        </a>
+        <AddIcon style={{ textAlign: "center", height: "100px" }} />
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+          <img src="/TS.svg" className="logo" alt="TypeScript logo" />
+        </a>
+        <AddIcon style={{ textAlign: "center", height: "100px" }} />
+        <a href="https://redux.js.org/" target="_blank" rel="noreferrer">
+          <img src="/redux.svg" className="logo" alt="Redux logo" />
+        </a>
+        <AddIcon style={{ textAlign: "center", height: "100px" }} />
+        <a href="https://mui.com/" target="_blank" rel="noreferrer">
+          <img src="/mui.svg" className="logo" alt="MUI logo" />
+        </a>
+        <AddIcon style={{ textAlign: "center", height: "100px" }} />
+        <a href="https://github.com/theWhiteFox/Vite-React-TS-Redux-boilerplate" target="_blank" rel="noreferrer">
+          <img src="/octocat.svg" className="logo" alt="GitHub logo" />
+        </a>
+      </div>
+      <div className="card">
+        <Counter />
+      </div>
+    </>
   )
 }
 export default Home;

@@ -34,7 +34,7 @@ function About() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Box
-        height="100vh"
+        height="60vh"
         display="flex"
         justifyContent="center"
         alignItems="center"
@@ -45,19 +45,11 @@ function About() {
           sx={{ padding: "1rem", backgroundColor: "secondary.light" }}
         >
           <Typography color="primary.dark" variant="h1">
-            About page
+            About Page
           </Typography>
-          <div>
-            <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-              <img src="/vite.svg" className="logo" alt="Vite logo" />
-            </a>
-          </div>
-          <h1>About</h1>
+          <h1>This is the About Page</h1>
           <div className="card">
-            <Counter />
-            <p>
-              Edit <code>src/App.tsx</code> and save to test HMR
-            </p>
+
           </div>
         </Paper>
       </Box>
