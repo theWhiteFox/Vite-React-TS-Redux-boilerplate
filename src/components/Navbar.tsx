@@ -10,6 +10,7 @@ import {
     Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { routes } from "../routes";
 import { NavLink } from "react-router-dom";
 
@@ -97,6 +98,14 @@ const Navbar: FC = (): ReactElement => {
                     >
                         React Starter App
                     </Typography>
+                    <IconButton
+                        size="large"
+                        aria-label="account of current user"
+                        href="https://github.com/theWhiteFox/"
+                        color="inherit"
+                    >
+                        <GitHubIcon />
+                    </IconButton>
                     <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                         <Box
                             sx={{
