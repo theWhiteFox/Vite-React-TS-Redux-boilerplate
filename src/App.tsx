@@ -55,7 +55,5 @@ export function App() {
 }
 
 export function WrappedApp() {
-  return (
-    <App />
-  );
+  return <App />
 }
