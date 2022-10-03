@@ -1,7 +1,14 @@
-# [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [TS](https://www.typescriptlang.org/) boilerplate
+# [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [Redux](https://redux.js.org/) +
+[TS](https://www.typescriptlang.org/) boilerplate
 
 [![Netlify
 Status](https://api.netlify.com/api/v1/badges/9c95d444-98af-4449-b67f-8d63cbce2135/deploy-status)](https://app.netlify.com/sites/vite-react-redux-ts-boilerplate/deploys)
+
+## Install Run Test Build
+- `yarn`
+- `yarn dev`
+- `yarn run test`
+- `yarn build`
 
 This setup includes:
 * [Vite](https://vitejs.dev/)
@@ -23,4 +30,6 @@ This setup includes:
 library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 * [Medium strong typed i18n React](https://medium.com/geekculture/strong-typed-i18n-in-react-c43281de720c)
 * [https://reactjs.org/docs/accessibility.html](https://reactjs.org/docs/accessibility.html)
-* [openreplay understanding reacthooks container component pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
+* [openreplay understanding reacthooks container component
+pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
+* [Valentinog jest coverage/](https://www.valentinog.com/blog/jest-coverage/)
