@@ -23,3 +23,4 @@ This setup includes:
 library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 * [Medium strong typed i18n React](https://medium.com/geekculture/strong-typed-i18n-in-react-c43281de720c)
 * [https://reactjs.org/docs/accessibility.html](https://reactjs.org/docs/accessibility.html)
+* [openreplay understanding reacthooks container component pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
