@@ -32,3 +32,5 @@ library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 * [openreplay understanding reacthooks container component
 pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
 * [Valentinog jest coverage/](https://www.valentinog.com/blog/jest-coverage/)
+* [Profy React folder structure](https://profy.dev/article/react-folder-structure)
+* [OpenReplay container component pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
