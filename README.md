@@ -4,10 +4,10 @@
 Status](https://api.netlify.com/api/v1/badges/9c95d444-98af-4449-b67f-8d63cbce2135/deploy-status)](https://app.netlify.com/sites/vite-react-redux-ts-boilerplate/deploys)
 
 ## Install Run Test Build
-- `yarn`
-- `yarn dev`
-- `yarn run test`
-- `yarn build`
+- npm i
+- npm run dev
+- npm run test
+- npm build
 
 This setup includes:
 * [Vite](https://vitejs.dev/)

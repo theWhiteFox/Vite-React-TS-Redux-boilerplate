@@ -12,6 +12,7 @@ function Home() {
       <Typography color="primary.dark" variant="h1">
         Home
       </Typography>
+      <h2 class="text-3xl font-bold underline">Home<h2>
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
