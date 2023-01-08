@@ -20,6 +20,9 @@ This setup includes:
 * [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
 * [MUI](https://mui.com/)
 * [i18next](https://react.i18next.com/)
+* [tailwindCSS](tailwind)
+* [styled components]()
+* [twin.macro](https://www.npmjs.com/package/twin.macro)
 
 ## References
 
@@ -34,3 +37,4 @@ pattern](https://blog.openreplay.com/understanding-the-container-component-patte
 * [Valentinog jest coverage/](https://www.valentinog.com/blog/jest-coverage/)
 * [Profy React folder structure](https://profy.dev/article/react-folder-structure)
 * [OpenReplay container component pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
+* [vite-styled-components-typescript#installation](https://github.com/ben-rogerson/twin.examples/tree/master/vite-styled-components-typescript#installation)
