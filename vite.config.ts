@@ -4,10 +4,15 @@
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  build: { target: "es2020" },
+  optimizeDeps: {
+    esbuildOptions: { target: "es2020", supported: { bigint: true } },
+  },
+  plugins: [react(), WindiCSS()],
   test: {
     globals: true,
     environment: 'jsdom',

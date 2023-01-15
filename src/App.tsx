@@ -5,7 +5,7 @@ import { routes as appRoutes } from "./routes";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
-import GlobalStyles from './styles/styles'
+// import GlobalStyles from './styles/styles'
 
 export function App() {
 
@@ -30,7 +30,7 @@ export function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <GlobalStyles />
+      {/* <GlobalStyles /> */}
       <Box height="100vh"
         display="flex"
         flexDirection="column">
