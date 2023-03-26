@@ -13,6 +13,8 @@ function Home() {
         Home
       </Typography>
       <div>
+      <button>Button</button>
+
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>

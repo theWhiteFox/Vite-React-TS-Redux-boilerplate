@@ -12,7 +12,14 @@ export default defineConfig({
   optimizeDeps: {
     esbuildOptions: { target: "es2020", supported: { bigint: true } },
   },
-  plugins: [react(), WindiCSS()],
+  plugins: [react(), WindiCSS({
+    scan: {
+      // By default only `src/` is scanned
+      dirs: ["pages"],
+      // We only have to specify the file extensions we actually use.
+      fileExtensions: ["vue", "js", "ts", "jsx", "tsx"]
+    }
+  })],
   test: {
     globals: true,
     environment: 'jsdom',

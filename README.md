@@ -22,7 +22,7 @@ This setup includes:
 * [i18next](https://react.i18next.com/)
 * [React DnD](https://react-dnd.github.io/react-dnd/about)
 * [styled components]()
-* [twin.macro](https://www.npmjs.com/package/twin.macro)
+* [vite windicss](https://vite-plugin-ssr.com/windi-css)
 
 ## References
 
