@@ -24,6 +24,7 @@
     "vite.config.ts",
     ".eslintrc.cjs",
     "src",
+    "windi.config.ts"
   ],
   "references": [
     {

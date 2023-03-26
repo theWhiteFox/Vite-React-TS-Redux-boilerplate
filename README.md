@@ -20,7 +20,7 @@ This setup includes:
 * [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
 * [MUI](https://mui.com/)
 * [i18next](https://react.i18next.com/)
-* [tailwindCSS](tailwind)
+* [React DnD](https://react-dnd.github.io/react-dnd/about)
 * [styled components]()
 * [twin.macro](https://www.npmjs.com/package/twin.macro)
 
