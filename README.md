@@ -7,7 +7,7 @@ Status](https://api.netlify.com/api/v1/badges/9c95d444-98af-4449-b67f-8d63cbce21
 - npm i
 - npm run dev
 - npm run test
-- npm build
+- npm run build
 
 This setup includes:
 * [Vite](https://vitejs.dev/)
