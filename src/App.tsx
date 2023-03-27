@@ -5,7 +5,6 @@ import { routes as appRoutes } from "./routes";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
-import 'windi.css'
 
 export function App() {
 

@@ -7,14 +7,19 @@ import AddIcon from '@mui/icons-material/Add'
 
 function Home() {
 
+  const [count, setCount] = useState(0)
+
   return (
     <>
       <Typography className="text-3xl font-bold underline" color="primary.dark" variant="h1">
         Home
       </Typography>
       <div>
-      <button>Button</button>
-
+        <button
+            className="border border-gray-400 rounded px-4 py-2 mt-4 hover:(bg-teal-400 border-teal-400)"
+            onClick={() => setCount(count => count + 1)}>
+            count is: {count}
+        </button>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>

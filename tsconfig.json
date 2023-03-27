@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["vite/client"],
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": [
@@ -23,7 +24,7 @@
   "include": [
     "vite.config.ts",
     ".eslintrc.cjs",
-    "src",
+    "./src",
     "windi.config.ts"
   ],
   "references": [

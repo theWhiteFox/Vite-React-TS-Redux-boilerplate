@@ -8,18 +8,11 @@ import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  build: { target: "es2020" },
+  build: { target: "es2020", sourcemap: true, },
   optimizeDeps: {
     esbuildOptions: { target: "es2020", supported: { bigint: true } },
   },
-  plugins: [react(), WindiCSS({
-    scan: {
-      // By default only `src/` is scanned
-      dirs: ["pages"],
-      // We only have to specify the file extensions we actually use.
-      fileExtensions: ["vue", "js", "ts", "jsx", "tsx"]
-    }
-  })],
+  plugins: [react(), WindiCSS({})],
   test: {
     globals: true,
     environment: 'jsdom',
