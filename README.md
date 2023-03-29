@@ -24,6 +24,9 @@ This setup includes:
 * [styled components]()
 * [vite windicss](https://vite-plugin-ssr.com/windi-css)
 
+### VSCode 
+[Freecodecamp ChatGPT](https://www.freecodecamp.org/news/install-chatgpt-in-vscode/)
+
 ## References
 
 * [Markus Oberlehner Jest & vitest](https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/)
