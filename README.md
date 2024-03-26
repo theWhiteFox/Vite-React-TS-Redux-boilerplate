@@ -3,9 +3,10 @@
 [![Netlify
 Status](https://api.netlify.com/api/v1/badges/9c95d444-98af-4449-b67f-8d63cbce2135/deploy-status)](https://app.netlify.com/sites/vite-react-redux-ts-boilerplate/deploys)
 
+
 ## Install Run Test Build
 - npm i
-- npm run dev
+- npm run dev:frontend
 - npm run test
 - npm run build
 
@@ -23,6 +24,8 @@ This setup includes:
 * [React DnD](https://react-dnd.github.io/react-dnd/about)
 * [styled components]()
 * [vite windicss](https://vite-plugin-ssr.com/windi-css)
++ [vite-plugin-node](https://www.npmjs.com/package/vite-plugin-node/v/3.0.2#more-examples)
++ [bun](https://bun.sh/)
 
 ### VSCode 
 [Freecodecamp ChatGPT](https://www.freecodecamp.org/news/install-chatgpt-in-vscode/)
@@ -41,3 +44,5 @@ pattern](https://blog.openreplay.com/understanding-the-container-component-patte
 * [Profy React folder structure](https://profy.dev/article/react-folder-structure)
 * [OpenReplay container component pattern](https://blog.openreplay.com/understanding-the-container-component-pattern-with-react-hooks/)
 * [vite-styled-components-typescript#installation](https://github.com/ben-rogerson/twin.examples/tree/master/vite-styled-components-typescript#installation)
+- [https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [react-cors-guide-what-it-is-and-how-to-enable-it](https://www.stackhawk.com/blog/react-cors-guide-what-it-is-and-how-to-enable-it/)
