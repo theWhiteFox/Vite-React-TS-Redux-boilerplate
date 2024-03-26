@@ -1,4 +1,5 @@
 import express, { Request, Response } from "express";
+import authRouter from "../src/routes/authRouter";
 import dotenv from "dotenv";
 import cors from 'cors';
 
@@ -30,3 +31,5 @@ app.listen(PORT, () => {
   // gracefully handle error
   throw new Error(error.message);
 });
+
+app.use(authRouter);

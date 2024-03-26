@@ -3,8 +3,13 @@
 [![Netlify
 Status](https://api.netlify.com/api/v1/badges/9c95d444-98af-4449-b67f-8d63cbce2135/deploy-status)](https://app.netlify.com/sites/vite-react-redux-ts-boilerplate/deploys)
 
+## Install Run Test Build with Express using bun
+- `bun i`
+- `bun run dev`
+- `bun run test`
+- `bun run build`
 
-## Install Run Test Build
+## Install Run Test Build sans Express
 - npm i
 - npm run dev:frontend
 - npm run test

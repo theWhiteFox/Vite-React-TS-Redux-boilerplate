@@ -5,6 +5,11 @@ import { routes as appRoutes } from "./routes";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
+import DefaultLayout from "./layouts/DefaultLayout";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import ProtectedLayout from "./layouts/ProtectedLayout";
+import Register from "./pages/Register";
 
 export function App() {
 
@@ -40,13 +45,13 @@ export function App() {
             sx={{ padding: "1rem", backgroundColor: "secondary.light" }}
           >
             <Routes>
-              {appRoutes.map((route) => (
-                <Route
-                  key={route.key}
-                  path={route.path}
-                  element={<route.component />}
-                />
-              ))}
+              <Route element={<DefaultLayout />}>
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+              </Route>
+              <Route element={<ProtectedLayout />}>
+                <Route path="/" element={<Home />} />
+              </Route>
               <Route path="*" element={<NotFound />}></Route>
             </Routes>
           </Paper>
